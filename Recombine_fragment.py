@@ -608,7 +608,7 @@ inpath=libpath+'COV-reselect-Cluster7.fasta' #input file for recombination detec
 #Regular Detection[recommended]:    RunningMode=2,  vote + fragment_check + parental&fragments
 #Precise Detection:                 RunningMode=3,  vote + parental&fragments
 running_mode=2
-# spacetime_BLAST_flag=False ##Enable spatio-temporal conditions
-spacetime_BLAST_flag=False ##Disable spatio-temporal conditions
+spacetime_BLAST_flag=True ##Enable spatio-temporal conditions
+# spacetime_BLAST_flag=False ##Disable spatio-temporal conditions
 if __name__ == '__main__':
     predict_and_evaluation(running_mode, inpath, outpath_basis='Recombine')
