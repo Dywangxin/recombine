@@ -24,7 +24,7 @@ blast-2.12.0
 0. BLAST should be installed, with blast-2.12.0 recommended.
 1. For all .fasta files used in this project, the sequence must be in one line rather than in several lines, otherwise ERROR.
 2. The recombine_lib/COV-reselect-Cluster7.fasta is the .fasta file for this project.
-3. Recombine_spacetime_info_raw.csv includes the spatio-temporal information of filtered sequences for local library construction.
+3. Recombine_spacetime_info_raw.csv includes the spatio-temporal information of sequences in COV-reselect-Cluster7.fasta. For additional sequences, their spatio-temporal information should be included.
 4. Recombine_FinalFrag.csv is the Example outputfile produced by Recombine_fragment.py.
 5. Once the local library is constructed, it will no longer need re-constructing. However, changing the running platform requires library construction again.
 6. Non-recombiant strains are not visualized.
